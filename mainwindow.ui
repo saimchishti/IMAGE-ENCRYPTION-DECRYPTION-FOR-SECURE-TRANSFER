@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<ui version="4.0">
+    <class>MainWindow</class>
+    <widget class="QMainWindow" name="MainWindow">
+        <property name="geometry">
+            <rect>
+                <x>0</x>
+                <y>0</y>
+                <width>800</width>
+                <height>600</height>
+            </rect>
+        </property>
+        <property name="windowTitle">
+            <string>Image Encryptor</string>
+        </property>
+        <widget class="QWidget" name="centralwidget">
+            <widget class="QPushButton" name="loadImageButton">
+                <property name="geometry">
+                    <rect>
+                        <x>30</x>
+                        <y>30</y>
+                        <width>100</width>
+                        <height>30</height>
+                    </rect>
+                </property>
+                <property name="text">
+                    <string>Load Image</string>
+                </property>
+            </widget>
+            <widget class="QPushButton" name="encryptButton">
+                <property name="geometry">
+                    <rect>
+                        <x>150</x>
+                        <y>30</y>
+                        <width>100</width>
+                        <height>30</height>
+                    </rect>
+                </property>
+                <property name="text">
+                    <string>Encrypt</string>
+                </property>
+            </widget>
+            <widget class="QPushButton" name="decryptButton">
+                <property name="geometry">
+                    <rect>
+                        <x>270</x>
+                        <y>30</y>
+                        <width>100</width>
+                        <height>30</height>
+                    </rect>
+                </property>
+                <property name="text">
+                    <string>Decrypt</string>
+                </property>
+            </widget>
+            <widget class="QPushButton" name="saveImageButton">
+                <property name="geometry">
+                    <rect>
+                        <x>390</x>
+                        <y>30</y>
+                        <width>100</width>
+                        <height>30</height>
+                    </rect>
+                </property>
+                <property name="text">
+                    <string>Save Image</string>
+                </property>
+            </widget>
+            <widget class="QLabel" name="originalImageLabel">
+                <property name="geometry">
+                    <rect>
+                        <x>30</x>
+                        <y>80</y>
+                        <width>200</width>
+                        <height>200</height>
+                    </rect>
+                </property>
+                <property name="text">
+                    <string />
+                </property>
+                <property name="scaledContents">
+                    <bool>false</bool>
+                </property>
+            </widget>
+            <widget class="QLabel" name="encryptedImageLabel">
+                <property name="geometry">
+                    <rect>
+                        <x>270</x>
+                        <y>80</y>
+                        <width>200</width>
+                        <height>200</height>
+                    </rect>
+                </property>
+                <property name="text">
+                    <string />
+                </property>
+                <property name="scaledContents">
+                    <bool>false</bool>
+                </property>
+            </widget>
+            <widget class="QLabel" name="decryptedImageLabel">
+                <property name="geometry">
+                    <rect>
+                        <x>510</x>
+                        <y>80</y>
+                        <width>200</width>
+                        <height>200</height>
+                    </rect>
+                </property>
+                <property name="text">
+                    <string />
+                </property>
+                <property name="scaledContents">
+                    <bool>false</bool>
+                </property>
+            </widget>
+        </widget>
+        <widget class="QMenuBar" name="menubar">
+            <property name="geometry">
+                <rect>
+                    <x>0</x>
+                    <y>0</y>
+                    <width>800</width>
+                    <height>26</height>
+                </rect>
+            </property>
+        </widget>
+        <widget class="QStatusBar" name="statusbar" />
+    </widget>
+    <resources />
+    <connections />
+</ui>
